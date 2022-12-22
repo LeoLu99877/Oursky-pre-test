@@ -1,0 +1,29 @@
+void placed(int key, int value)
+{
+
+if (cache.find(key) == cache.stop()) 
+
+{
+
+if (cache.length() cache_capacity) 
+
+{
+
+cache.erase(values.back());
+
+values.pop_back();
+
+}
+
+else 
+
+{ 
+
+values.erase(cache[key].itr);
+
+}
+
+values.push_front(key); 
+cache[key] = {value, values.begin()}; 	
+} 
+}
